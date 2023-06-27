@@ -1,0 +1,27 @@
+
+@font-face {
+    src: url('Eater-Regular.ttf');
+}
+
+.custom-menubar {
+    -fx-background-color: transparent;
+    -fx-padding: 10 10 0 10;
+}
+
+.custom-menubar .menu .label{
+    -fx-font-family: 'Eater';
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+}
+
+.custom-menubar .menu {
+    -fx-padding: 0 15 0 15;
+}
+
+.description{
+    -fx-font-size: 15px;
+}
+
+.description Text{
+    -fx-fill: white;
+}
